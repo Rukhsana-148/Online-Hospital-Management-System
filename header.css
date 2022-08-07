@@ -1,0 +1,104 @@
+.top h4 {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.infoLog {
+    background-color: orangered;
+}
+
+.main {
+    margin-top: 90px;
+    padding-bottom: 15px;
+}
+
+.information {
+    background-color: cadetblue;
+    color: white;
+}
+
+.infol ul li {
+    display: block;
+}
+
+.infol {
+    text-align: center;
+}
+
+.infol ul li {
+    list-style: none;
+}
+
+.login h3 {
+    text-align: center;
+}
+
+.login {
+    background: linear-gradient(rgba(29, 17, 165, 0.3), rgba(40, 167, 156, 0.3)), url('back.jpg') no-repeat center/cover;
+}
+
+.login form {
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    color: orangered;
+    font-size: larger;
+}
+
+.doctor form {
+    margin-top: 50px;
+    padding: 50px 60px;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    color: orange;
+    font-size: larger;
+}
+
+.doctor h4 {
+    color: orangered;
+}
+
+nav {
+    flex: 1;
+}
+
+.tel .topTel {
+    padding-top: 200px;
+}
+
+.topTel ul li {
+    display: inline-block;
+    font-size: large;
+    margin-left: 30px;
+}
+
+.audio i {
+    font-size: x-large;
+}
+
+.topTel .audio {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.pay .bottom {
+    font-size: 19px;
+}

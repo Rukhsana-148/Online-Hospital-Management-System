@@ -1,0 +1,106 @@
+.form form {
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    color: white;
+    font-size: 19px;
+}
+
+.form h4 {
+    text-align: center;
+    color: orangered;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.form {
+    background: linear-gradient(rgba(255, 240, 240, 0.7), rgba(51, 51, 255, 0.7)), url('back.jpg') no-repeat center/cover;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-skip: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.pay {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('back.jpg') no-repeat center/cover;
+}
+
+.pay h4 {
+    text-align: center;
+    padding-top: 30px;
+    color: orangered;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.form p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+}
+
+.pay form {
+    border: 3px solid white;
+    background-color: orangered;
+    border-radius: 25px;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    color: black;
+    font-size: 19px;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 1368px;
+    background: linear-gradient(rgba(51, 51, 255, 0.3), rgba(51, 51, 255, 0.3)), url('back.jpg') no-repeat center/cover;
+}
+
+.top {
+    width: 100%;
+    height: 300px;
+}
+
+.nav-part {
+    margin-top: -70px;
+    width: 100%;
+}
+
+nav {
+    flex: 1;
+}
+
+ul li {
+    display: block;
+    list-style: disc;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.top h4 {
+    text-align: center;
+    color: orangered;
+    padding: 50px 0px;
+}

@@ -1,0 +1,239 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1360px;
+}
+
+.upper {
+    position: fixed;
+    z-index: 99;
+    width: 1317px;
+}
+
+.top {
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.top nav {
+    flex: 1;
+}
+
+.top ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top img {
+    width: 150px;
+    height: 70px;
+}
+
+.top i {
+    color: white;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(25, 182, 202);
+    background-color: rgb(25, 182, 202);
+    padding: 5px 5px;
+}
+
+.top-body {
+    background-color: aquamarine;
+    padding: 20px 0px;
+}
+
+.top-body nav {
+    flex: 1;
+}
+
+.top-body ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.top-body a {
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.top-body a:hover {
+    background-color: black;
+    color: white;
+    transition: 1.5s;
+}
+
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('backg.jfif') no-repeat center/cover;
+    padding-top: 300px;
+    padding-bottom: 180px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.history {
+    text-align: left;
+    padding: 50px 30px
+}
+
+.history nav {
+    flex: 1;
+}
+
+.history ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.history small {
+    margin-bottom: 30px;
+}
+
+.history h3 {
+    padding-top: 170px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+.service {
+    padding: 80px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.service h4 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.service ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.environment {
+    padding: 80px 20px;
+}
+
+.environment h4 {
+    padding-top: 160px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgb(29, 110, 121);
+    font-weight: bold;
+}
+
+.contact {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0px 20px;
+    text-align: center;
+    background: cadetblue;
+    color: black;
+}
+
+.contact h4 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.contact ul li {
+    text-align: left;
+    list-style: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px 20px;
+    background-color: black;
+    color: cadetblue;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.footer span {
+    color: white;
+}
+
+.menubar {
+    padding: 20px 10px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 30px;
+}
+
+.menubar .back {
+    margin-left: 86%;
+}
+
+.showLink {
+    background-color: white;
+    color: cadetblue;
+}
+
+.homePage {
+    position: relative;
+    padding-top: 190px;
+    color: white;
+    background-color: rgb(23, 81, 92);
+}
+
+.showPat ul li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    padding: 20px 10px;
+}
+
+.back a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.showPat ul li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.showDoc ul li {
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.showDoc ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.homePage ul li {
+    list-style: none;
+}
+
+.pay form {
+    margin: 1px solid white;
+    border-radius: 20px;
+}
